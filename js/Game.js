@@ -164,7 +164,6 @@ class Game extends UI {
         if (this.#revealedCells === this.#cellsToReveal && !this.#isGameFinished) {
             this.#endGame(true);
         }
-        console.log(`komórek do odkrycia: ${this.#cellsToReveal}, odkrytych: ${this.#revealedCells}`);
     }
 
     #handleCellClick = (e) => {
